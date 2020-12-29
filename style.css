@@ -1916,9 +1916,7 @@ footer p {
     text-align: center;
   }
 
-  .services__wrap ul {
-    display: block;
-  }
+
 
   .main__header img {
     right: 0;
@@ -1963,7 +1961,25 @@ footer p {
   form button {
     width: 80%;
   }
+
   .popup {
-    top: 1%;
-    }
+    top: 3%;
+  }
+
+  .nav__phone {
+    height: 40px;
+    padding-top: 10px;
+  }
+
+  .button__about {
+    padding: 15px 70px;
+  }
+
+  .services__container {
+    padding: 80px 0 40px 0;
+  }
+
+  .services__wrap ul li img {
+    width: 150px;
+  }
 }
