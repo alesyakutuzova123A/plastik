@@ -787,7 +787,8 @@ footer p {
 }
 
 .popup {
-  position: absolute;
+  position: fixed;
+  overflow: auto;
   top: 10%;
   left: 50%; 
   margin-left: -200px;
