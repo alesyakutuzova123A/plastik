@@ -637,7 +637,9 @@ footer p {
 .contacts__email>p:nth-child(1) {
   margin-bottom: 0px;
 }
-
+.credit__bg {
+  width: 40%;
+  }
 .contacts__email>a:nth-child(3)>img:nth-child(1) {
   margin-top: 0;
 }
@@ -724,7 +726,10 @@ footer p {
   width: 30px;
   height: 60px;
 }
-
+.button__header {
+  text-align: center;
+  }
+  
 .slider .slick-arrow.slick-prev {
   left: 0;
   background: url(../img/sl-arrow_l.svg) 0 0/100% no-repeat;
@@ -789,7 +794,7 @@ footer p {
 .popup {
   position: fixed;
   overflow: auto;
-  top: 10%;
+  top: 5%;
   left: 50%; 
   margin-left: -200px;
   z-index: 99999;
@@ -1979,7 +1984,6 @@ footer p {
   .services__container {
     padding: 80px 0 40px 0;
   }
-
   .services__wrap ul li img {
     width: 150px;
   }
